@@ -25,8 +25,6 @@ int main()
         }
     } 
 
-    
-
     std::cout << newstr << std::endl;
 
     return 0;
