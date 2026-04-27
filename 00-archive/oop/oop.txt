@@ -1,0 +1,24 @@
+// OOP
+// Uses objects as fundamental building blocks rather than algorithims
+// Program is created as a collection of objects 
+// Every object is an instance of some class
+// Classes are united via inheritance relationship
+
+//Object model
+
+//Abstraction, focuses on important details
+//Encapsulation, hides inplementation details of a class
+//Inheritance, hierachy of classesm, is-a relationship, 
+//Composition, "has-a" or "part-of" relationship, promotes reuse
+//Polymorphism, common behaviour with different implementations
+
+//class, blueprint/template
+//represents an abstraction
+
+class <name> {
+
+    <modifiers>
+        <member functions>
+        <member variables>
+
+};

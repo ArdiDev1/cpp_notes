@@ -1,0 +1,26 @@
+/* 
+
+Operator Overloading
+
+-Custom Implementation for primitive operators
+-Allows usage of user defined objects in mathematical expressions
+-Overloaded as function but provide convenient notation
+-Require usage of operator keyword
+
+As global functions, requires same no. arguments as the operands
+As member functions, one operand is passed as argument through ( this )
+pointer
+
+-Binary operator will require only one explicit argument
+-Unary operator will not require any explicit argument
+
+<ret> operator <#> (<arguments>)
+
+Rules:
+    Associativity,  precedence, and operand count does not change
+    Operator functions should be non static (except new and delete)
+    One argument should be user defined type
+    Global overload if first operand is primitive type
+    Not all operators can be overloaded, as this could damage 
+    the language. 
+
